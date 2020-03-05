@@ -14,6 +14,8 @@
 		C557C78224114ABD009E7DB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C557C78024114ABD009E7DB4 /* LaunchScreen.storyboard */; };
 		C557C78D24114ABD009E7DB4 /* TouchTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557C78C24114ABD009E7DB4 /* TouchTrackerTests.swift */; };
 		C557C79824114ABD009E7DB4 /* TouchTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557C79724114ABD009E7DB4 /* TouchTrackerUITests.swift */; };
+		C557C7A624114B0F009E7DB4 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557C7A524114B0F009E7DB4 /* Line.swift */; };
+		C557C7A824114B56009E7DB4 /*  DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C557C7A724114B56009E7DB4 /*  DrawView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C557C79324114ABD009E7DB4 /* TouchTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C557C79724114ABD009E7DB4 /* TouchTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchTrackerUITests.swift; sourceTree = "<group>"; };
 		C557C79924114ABD009E7DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C557C7A524114B0F009E7DB4 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		C557C7A724114B56009E7DB4 /*  DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " DrawView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		C557C76B24114ABC009E7DB4 = {
 			isa = PBXGroup;
 			children = (
+				C557C7A724114B56009E7DB4 /*  DrawView.swift */,
+				C557C7A524114B0F009E7DB4 /* Line.swift */,
 				C557C77624114ABC009E7DB4 /* TouchTracker */,
 				C557C78B24114ABD009E7DB4 /* TouchTrackerTests */,
 				C557C79624114ABD009E7DB4 /* TouchTrackerUITests */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C557C7A624114B0F009E7DB4 /* Line.swift in Sources */,
 				C557C77A24114ABC009E7DB4 /* ViewController.swift in Sources */,
 				C557C77824114ABC009E7DB4 /* AppDelegate.swift in Sources */,
+				C557C7A824114B56009E7DB4 /*  DrawView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
